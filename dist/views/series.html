@@ -1,0 +1,11 @@
+<div ng-repeat="episode in series">
+	<div ng-repeat="ep in episode.f">
+		<div class="item" ng-click="play(ep.n)">
+			<img ng-src="{{ep.s}}">
+			<div>
+				<h1>{{ep.b}}</h1>
+				<p>{{ep.d}}</p>
+			</div>
+		</div>
+	</ul>
+</div>

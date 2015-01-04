@@ -1,0 +1,14 @@
+{
+  "name": "abc-iview",
+  "version": "0.0.0",
+  "dependencies": {
+    "xml2js": ">= 0.0.0",
+    "request": ">= 0.0.0",
+    "libxmljs": ">= 0.0.0",
+    "moment": "x.x.x",
+    "colors": "x.x.x",
+    "airplay": "x.x.x",
+    "express": "x.x.x",
+    "bower": "x.x.x"
+  }
+}

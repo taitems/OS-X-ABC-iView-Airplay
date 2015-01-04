@@ -1,0 +1,35 @@
+html, body {
+	font-family: "Helvetica Neue";
+}
+.item {
+	width: 388px;
+	height: 218px;
+	position: relative;
+	margin-bottom: 30px;
+}
+.item img,
+.item div {
+	position: absolute;
+}
+.item img:after {
+	background: rgba(0,0,0,0.33);
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.item div {
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: #FFF;
+	padding: 10px;
+	z-index: 2;
+}
+
+.item h1,
+.item p {
+	color: #FFF;
+}

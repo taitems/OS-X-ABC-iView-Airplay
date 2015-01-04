@@ -1,0 +1,8 @@
+{
+  "name": "iview front end",
+  "dependencies": {
+    "angular": ">= 0.0.0",
+    "angular-spinner": "~0.6.0",
+    "angular-route": "~1.3.8"
+  }
+}
